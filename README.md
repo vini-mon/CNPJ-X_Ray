@@ -51,7 +51,7 @@ A arquitetura proposta é composta de alguns agentes especializados, cada um com
 
   
 
-- <b>Agente de Análise de Risco</b>: É o especialista do projeto. Nesse caso suas diretivas serão direcionadas para a lógica fechada do negócio para gerar as análises. Recebe os dados brutos do <u>Agente Cadastral</u> para tomar as decisões. <u>Justificativa</u>: Facilita o ajuste das métricas. Como possui um padrão de negócio fechado, será responsável pela análise das métricas (vide [Estratégia de Análise](#)).
+- <b>Agente de Análise de Risco</b>: É o especialista do projeto. Nesse caso suas diretivas serão direcionadas para a lógica fechada do negócio para gerar as análises. Recebe os dados brutos do <u>Agente Cadastral</u> para tomar as decisões. <u>Justificativa</u>: Facilita o ajuste das métricas. Como possui um padrão de negócio fechado, será responsável pela análise das métricas (vide [Estratégia de Análise](#estratégia-de-análise)).
 
   
 
@@ -101,18 +101,11 @@ No estado atual, sigo algumas regras para a análise sobre os dados públicos.
   
 
 | Risco e Classificação <br/>(Critério / penalização de Score) | Reprovado (-10) | Alerta (-2) | Aprovado (+1) |
-
 |:---------|:------:|:--------:|:--------:|
-
 | Status| Inapta, Baixada, Suspensa, Nula| - | Ativa |
-
 | Capital Social| < R$ 50.000 | < R$ 100.000 | >= R$ 100.000 |
-
 | Tempo de Abertura| < 1 ano | < 2 anos | >= 2 anos |
-
 | CNAE (Educacional)| Sem nenhuma relação | Apenas no CNAE Secundário | Presente no CNAE Principal |
-
-  
 
 ### Classificação Final
 
