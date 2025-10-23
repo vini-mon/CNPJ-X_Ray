@@ -1,0 +1,14 @@
+# ** requirements.txt
+
+# Para chamadas de API HTTP modernas e assíncronas    
+httpx
+
+# Para validação de dados e garantir a resposta da API e da saída
+pydantic
+
+# Para carregar variáveis de ambiente a partir de um arquivo .env
+python-dotenv
+
+# Para construção de interfaces web interativas com Python
+eel
+

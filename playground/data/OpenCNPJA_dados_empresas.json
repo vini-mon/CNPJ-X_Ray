@@ -1,0 +1,249 @@
+{
+    "45.954.282/0001-02": {
+        "updated": "2025-10-11T00:00:00.000Z",
+        "taxId": "45954282000102",
+        "alias": "Principia",
+        "founded": "2022-04-07",
+        "head": true,
+        "company": {
+            "members": [
+                {
+                    "since": "2022-11-17",
+                    "person": {
+                        "id": "09cb90d1-7aa5-4a70-b2e6-99b76285d2ca",
+                        "type": "LEGAL",
+                        "name": "PRINCIPIA EDUCATION TECHNOLOGY LLC",
+                        "taxId": "48249302000124"
+                    },
+                    "role": {
+                        "id": 37,
+                        "text": "Sócio Pessoa Jurídica Domiciliado no Exterior"
+                    },
+                    "agent": {
+                        "person": {
+                            "id": "1a115663-ccf3-4d8b-a775-430d5cacb7dc",
+                            "type": "NATURAL",
+                            "name": "Newton Maia Salomao Alves",
+                            "taxId": "***658924**",
+                            "age": "41-50"
+                        },
+                        "role": {
+                            "id": 17,
+                            "text": "Procurador"
+                        }
+                    }
+                },
+                {
+                    "since": "2022-04-07",
+                    "person": {
+                        "id": "1a115663-ccf3-4d8b-a775-430d5cacb7dc",
+                        "type": "NATURAL",
+                        "name": "Newton Maia Salomao Alves",
+                        "taxId": "***658924**",
+                        "age": "41-50"
+                    },
+                    "role": {
+                        "id": 5,
+                        "text": "Administrador"
+                    }
+                }
+            ],
+            "id": 45954282,
+            "name": "PRINCIPIA EDUCACAO TECNOLOGIA E SERVICOS LTDA",
+            "equity": 147264212,
+            "nature": {
+                "id": 2062,
+                "text": "Sociedade Empresária Limitada"
+            },
+            "size": {
+                "id": 5,
+                "acronym": "DEMAIS",
+                "text": "Demais"
+            },
+            "simples": {
+                "optant": false,
+                "since": null
+            },
+            "simei": {
+                "optant": false,
+                "since": null
+            }
+        },
+        "statusDate": "2022-04-07",
+        "status": {
+            "id": 2,
+            "text": "Ativa"
+        },
+        "address": {
+            "municipality": 3550308,
+            "street": "Avenida Dr Cardoso de Melo",
+            "number": "1855",
+            "district": "Vila Olimpia",
+            "city": "São Paulo",
+            "state": "SP",
+            "details": "Conj 111 e 112",
+            "zip": "04548903",
+            "country": {
+                "id": 76,
+                "name": "Brasil"
+            }
+        },
+        "mainActivity": {
+            "id": 7490104,
+            "text": "Atividades de intermediação e agenciamento de serviços e negócios em geral, exceto imobiliários"
+        },
+        "phones": [
+            {
+                "type": "LANDLINE",
+                "area": "11",
+                "number": "15523600"
+            }
+        ],
+        "emails": [
+            {
+                "ownership": "CORPORATE",
+                "address": "juridico@principia.net",
+                "domain": "principia.net"
+            }
+        ],
+        "sideActivities": [
+            {
+                "id": 6201502,
+                "text": "Web design"
+            },
+            {
+                "id": 6204000,
+                "text": "Consultoria em tecnologia da informação"
+            },
+            {
+                "id": 6619302,
+                "text": "Correspondentes de instituições financeiras"
+            },
+            {
+                "id": 6619399,
+                "text": "Outras atividades auxiliares dos serviços financeiros não especificadas anteriormente"
+            },
+            {
+                "id": 7020400,
+                "text": "Atividades de consultoria em gestão empresarial, exceto consultoria técnica específica"
+            },
+            {
+                "id": 8291100,
+                "text": "Atividades de cobranças e informações cadastrais"
+            },
+            {
+                "id": 8550302,
+                "text": "Atividades de apoio à educação, exceto caixas escolares"
+            }
+        ],
+        "suframa": []
+    },
+    "19.131.243/0001-97": {
+        "updated": "2025-10-11T00:00:00.000Z",
+        "taxId": "19131243000197",
+        "alias": "Rede Pelo Conhecimento Livre",
+        "founded": "2013-10-03",
+        "head": true,
+        "company": {
+            "members": [
+                {
+                    "since": "2024-02-27",
+                    "person": {
+                        "id": "7aa427ca-8fba-472d-ae92-8d9b484bbe16",
+                        "type": "NATURAL",
+                        "name": "Haydee Svab",
+                        "taxId": "***112108**",
+                        "age": "41-50"
+                    },
+                    "role": {
+                        "id": 16,
+                        "text": "Presidente"
+                    }
+                }
+            ],
+            "id": 19131243,
+            "name": "OPEN KNOWLEDGE BRASIL",
+            "equity": null,
+            "nature": {
+                "id": 3999,
+                "text": "Associação Privada"
+            },
+            "size": {
+                "id": 5,
+                "acronym": "DEMAIS",
+                "text": "Demais"
+            },
+            "simples": {
+                "optant": false,
+                "since": null
+            },
+            "simei": {
+                "optant": false,
+                "since": null
+            }
+        },
+        "statusDate": "2013-10-03",
+        "status": {
+            "id": 2,
+            "text": "Ativa"
+        },
+        "address": {
+            "municipality": 3550308,
+            "street": "Avenida Paulista 37",
+            "number": "37",
+            "district": "Bela Vista",
+            "city": "São Paulo",
+            "state": "SP",
+            "details": "Andar 4",
+            "zip": "01311902",
+            "country": {
+                "id": 76,
+                "name": "Brasil"
+            }
+        },
+        "mainActivity": {
+            "id": 9430800,
+            "text": "Atividades de associações de defesa de direitos sociais"
+        },
+        "phones": [
+            {
+                "type": "LANDLINE",
+                "area": "11",
+                "number": "23851939"
+            }
+        ],
+        "emails": [
+            {
+                "ownership": "PERSONAL",
+                "address": "torres.contab@gmail.com",
+                "domain": "gmail.com"
+            }
+        ],
+        "sideActivities": [
+            {
+                "id": 6204000,
+                "text": "Consultoria em tecnologia da informação"
+            },
+            {
+                "id": 8230001,
+                "text": "Serviços de organização de feiras, congressos, exposições e festas"
+            },
+            {
+                "id": 8599699,
+                "text": "Outras atividades de ensino não especificadas anteriormente"
+            },
+            {
+                "id": 9493600,
+                "text": "Atividades de organizações associativas ligadas à cultura e à arte"
+            },
+            {
+                "id": 9499500,
+                "text": "Atividades associativas não especificadas anteriormente"
+            }
+        ],
+        "suframa": []
+    },
+    "99999999000191": {
+        "erro": "CNPJ não encontrado"
+    }
+}

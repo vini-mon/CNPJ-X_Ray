@@ -1,0 +1,72 @@
+---
+config:
+  theme: redux
+  layout: dagre
+---
+flowchart LR
+ subgraph s1["CNPJ Data"]
+        n3["Data"]
+        n5["Local"]
+        n6["CNPJA<br>API"]
+  end
+ subgraph s2["Agentes"]
+        n9["Cadastral"]
+        n12["Due<br>Diligence"]
+        n16["<br>Orquestrador<br><br>"]
+        n22["Análise de Risco"]
+        n23["Reputação<br>"]
+  end
+ subgraph s4["Decisão Final"]
+        n14["Score // Classificação"]
+        n15["Justificativa"]
+  end
+ subgraph s5["LEGENDA"]
+        n17["Trabalhos<br>Futuros"]
+        n19["Dados<br>"]
+        n20["API"]
+        n21["Banco de<br>Dados"]
+        n18["Agentes"]
+  end
+    n3 -- Busca --o n5
+    n3 == Requisição ==> n6
+    n5 -- Dados Locais --o n3
+    n6 == Resposta ==> n3
+    n16 o---o n12 & n23
+    n9 ==> n22
+    n9 o==o n3
+    n16 ====> s4
+    n2["<b><br>CNPJ<br></b><br>"] == <br> ====> n16
+    n22 ==> n16
+    n16 ==> n9
+    n3@{ shape: rect}
+    n5@{ shape: cyl}
+    n6@{ shape: card}
+    n9@{ shape: subproc}
+    n12@{ shape: subproc}
+    n16@{ shape: subproc}
+    n22@{ shape: subproc}
+    n23@{ shape: subproc}
+    n15@{ shape: proc}
+    n17@{ shape: proc}
+    n19@{ shape: rect}
+    n20@{ shape: card}
+    n21@{ shape: cyl}
+    n18@{ shape: subproc}
+    n2@{ shape: rect}
+     n5:::Rose
+     n12:::Rose
+     n23:::Rose
+     n17:::Rose
+    classDef Pine stroke-width:1px, stroke-dasharray:none, stroke:#254336, fill:#27654A, color:#FFFFFF
+    classDef Rose stroke-width:1px, stroke-dasharray:none, stroke:#FF5978, fill:#FFDFE5, color:#8E2236
+    style n5 stroke-width:2px,stroke-dasharray: 2
+    style n12 stroke-width:2px,stroke-dasharray: 2
+    style n23 stroke-width:2px,stroke-dasharray: 2
+    style n17 stroke-width:2px,stroke-dasharray: 2
+    style n21 stroke-width:2px,stroke-dasharray: 0
+    style n2 stroke-width:4px,stroke-dasharray: 0
+    style s5 stroke:#00C853,fill:#FFFFFF
+    linkStyle 0 stroke:#FFCDD2,fill:none
+    linkStyle 2 stroke:#FFCDD2,fill:none
+    linkStyle 4 stroke:#FFCDD2,fill:none
+    linkStyle 5 stroke:#FFCDD2,fill:none

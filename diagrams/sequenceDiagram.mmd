@@ -1,0 +1,18 @@
+sequenceDiagram
+  participant Analista as Usuário
+  participant Orquestrador as Orquestrador
+  participant Cadastral as Agente Cadastral
+  participant AnalistaRisco as Agente Analista (Regras)
+  participant APICNPJ as API open.cnpja.com
+
+  Analista ->> Orquestrador: Análise o CNPJ: "XX.XXX..."
+  Orquestrador ->>+ Cadastral: 1. Buscar os dados do CNPJ
+  Cadastral ->>+ APICNPJ: 2. GET /office/{cnpj}
+  APICNPJ -->>- Cadastral: 3. JSON - Dados brutos
+  Cadastral -->>- Orquestrador: 4. Dados tratados//filtrados
+  Orquestrador ->>+ AnalistaRisco: 5. Analisar risco
+  AnalistaRisco -->> AnalistaRisco: 6. Aplica as regras (Status, Capital, CNAE, Abertura)
+  AnalistaRisco -->>- Orquestrador: 7. Resultado (Score // Classificação,<br>Justificativas)
+  Orquestrador -->> Analista: 8. Relatório Final da Análise
+
+

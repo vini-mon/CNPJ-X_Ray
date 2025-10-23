@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CNPJ X-Ray</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <header>
+                <h1>CNPJ X-Ray</h1>
+                <p>Analisador de Risco de Instituições de Ensino</p>
+            </header>
+
+            <main>
+
+                <div class="input-section">
+
+                    <span>ATENÇÃO: API Pública é limitada a 5 consultas por minuto por endereço IP.</span>
+                    <br/>
+                    <label for="cnpj-input">Cole os CNPJs (um por linha):</label>
+                    <textarea id="cnpj-input" rows="10" placeholder="19.131.243/0001-97&#10;99.999.999/0001-91"></textarea>
+
+                    <button id="analyze-button" onclick="start_analysis()">
+                        Analisar CNPJs
+                    </button>
+
+                </div>
+
+                <div class="output-section">
+
+                    <h2>Resultados da Análise</h2>
+
+                    <div id="results-container">
+                        <pre id="results-log">Aguardando análise...</pre>
+                    </div>
+                    
+                </div>
+
+            </main>
+
+        </div>
+
+        <script type="text/javascript" src="/eel.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+
+    </body>
+
+</html>
