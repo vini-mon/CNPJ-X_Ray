@@ -97,11 +97,11 @@ No estado atual, sigo algumas regras para a análise sobre os dados públicos.
 
 ### Classificação Final
 
-- <u><b>Reprovado</b></u>: Score < 0
+- <u><b>Reprovado</b></u>: Se <b>Score</b> menor que 0
 
-- <u><b>Atenção</b></u>: 0 >= Score <= 2
+- <u><b>Atenção</b></u>: Se <b>Score</b> entre 0 e 2
 
-- <u><b>Aprovado</b></u>: Score > 2
+- <u><b>Aprovado</b></u>: Se <b>Score</b> maior do que 2
 
 	
 	
